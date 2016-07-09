@@ -8,7 +8,7 @@ Final Project of Udacity-Google Android Nanodegree
 ##### Stage 2 : Build
 - Source : [View](https://github.com/mhetrerajat/Capstone-Project/tree/master/Stage-2/Backpacker)
 
-### Usage
+## Usage
 
 ##### Setup API KEY for Google Places API
 Add your own API KEY in res/values/strings.xml
