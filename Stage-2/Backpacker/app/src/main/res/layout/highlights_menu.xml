@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="3dp"
+        android:id="@+id/highlights_transit_cv"
+        android:layout_marginBottom="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/transit_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/transit"
+                    android:id="@+id/transit_iv"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_bg" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/transit_title"
+                android:text="@string/local_transit"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignLeft="@id/transit_frame"
+                android:layout_alignTop="@id/transit_frame"
+                android:layout_alignRight="@id/transit_frame"
+                android:layout_alignBottom="@id/transit_frame"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="3dp"
+        android:id="@+id/highlights_cafe_cv"
+        android:layout_marginBottom="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/highlights_cafe_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cafe"
+                    android:id="@+id/highlights_cafe_iv"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center_horizontal"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_bg" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/highlights_cafe_title"
+                android:text="@string/cafe"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_alignLeft="@id/highlights_cafe_frame"
+                android:layout_alignTop="@id/highlights_cafe_frame"
+                android:layout_alignRight="@id/highlights_cafe_frame"
+                android:layout_alignBottom="@id/highlights_cafe_frame"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="3dp"
+        android:id="@+id/highlights_aquarium_cv"
+        android:layout_marginBottom="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/aquarium_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/aquarium"
+                    android:id="@+id/aquarium_iv"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_bg" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aquarium_title"
+                android:text="@string/aquarium"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_alignLeft="@id/aquarium_frame"
+                android:layout_alignTop="@id/aquarium_frame"
+                android:layout_alignRight="@id/aquarium_frame"
+                android:layout_alignBottom="@id/aquarium_frame"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="3dp"
+        android:id="@+id/highlights_bakery_cv"
+        android:layout_marginBottom="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bakery_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bakery"
+                    android:id="@+id/bakery_iv"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_bg" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bakery_title"
+                android:text="@string/bakery"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_alignLeft="@id/bakery_frame"
+                android:layout_alignTop="@id/bakery_frame"
+                android:layout_alignRight="@id/bakery_frame"
+                android:layout_alignBottom="@id/bakery_frame"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="3dp"
+        android:id="@+id/highlights_art_cv"
+        android:layout_marginBottom="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/art_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/art_gallery"
+                    android:id="@+id/art_iv"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_bg" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/art_title"
+                android:text="@string/art_gallery"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_alignLeft="@id/art_frame"
+                android:layout_alignTop="@id/art_frame"
+                android:layout_alignRight="@id/art_frame"
+                android:layout_alignBottom="@id/art_frame"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="3dp"
+        android:id="@+id/highlights_nature_cv"
+        android:layout_marginBottom="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/nature_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/nature"
+                    android:id="@+id/nature_iv"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_bg" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nature_title"
+                android:text="@string/natural_features"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_alignLeft="@id/nature_frame"
+                android:layout_alignTop="@id/nature_frame"
+                android:layout_alignRight="@id/nature_frame"
+                android:layout_alignBottom="@id/nature_frame"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="3dp"
+        android:id="@+id/highlights_subway_cv"
+        android:layout_marginBottom="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/subway_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/subway"
+                    android:id="@+id/subway_iv"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_bg" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/subway_title"
+                android:text="@string/subway_stations"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_alignLeft="@id/subway_frame"
+                android:layout_alignTop="@id/subway_frame"
+                android:layout_alignRight="@id/subway_frame"
+                android:layout_alignBottom="@id/subway_frame"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="3dp"
+        android:id="@+id/highlights_taxi_cv"
+        android:layout_marginBottom="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/taxi_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/taxi"
+                    android:id="@+id/taxi_iv"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_bg" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/taxi_title"
+                android:text="@string/taxi_stands"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_alignLeft="@id/taxi_frame"
+                android:layout_alignTop="@id/taxi_frame"
+                android:layout_alignRight="@id/taxi_frame"
+                android:layout_alignBottom="@id/taxi_frame"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

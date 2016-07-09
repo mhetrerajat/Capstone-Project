@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mhetrerajat.backpacker">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".BackpackerApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.CitySelectActivity" />
+        <activity android:name=".Activity.HomeActivity" />
+        <activity android:name=".Activity.PlaceDetailsActivity" />
+        <activity android:name=".Activity.HighlightsListActivity" />
+        <activity android:name=".Activity.FavouriteListActivity" />
+
+        <receiver android:name=".Widget.BackpackerWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/backpacker_widget_info" />
+        </receiver>
+        <receiver
+            android:name=".Widget.WidgetIntentReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mhetrerajat.intent.action.UPDATE_WIDGET" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".Provider.BackpackerContentProvider"
+            android:authorities="com.mhetrerajat.backpacker.Provider.BackpackerContentProvider" >
+        </provider>
+    </application>
+
+</manifest>

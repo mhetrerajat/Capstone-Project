@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "309800532082",
+    "project_id": "smiling-gasket-133006"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309800532082:android:552ef75b8ce98d01",
+        "android_client_info": {
+          "package_name": "com.mhetrerajat.backpacker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309800532082-9cbffehlfh2mq4dqbkqbk0b9o55p3g79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mhetrerajat.backpacker",
+            "certificate_hash": "3D74AE8E34977CF87635CFECB73654CEFAE380D9"
+          }
+        },
+        {
+          "client_id": "309800532082-t4aubh2d151hq8jk4jsn161lut7hm2h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb-Sn69MvrKmQ8JBEFW7_Mh5KLGk8Cimo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

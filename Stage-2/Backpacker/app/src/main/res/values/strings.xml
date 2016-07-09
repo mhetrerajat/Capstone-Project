@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Backpacker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="REMOTE_API_KEY">YOUR_API_KEY</string>
+    <string name="REMOTE_BASE_URL">https://maps.googleapis.com/maps/api/place/</string>
+
+    <string name="city_select_search_hint">What\'s your city</string>
+    <string name="visit_website">Visit Website</string>
+    <string name="mark_as_favourite">Mark as Favourite</string>
+    <string name="photos">PHOTOS</string>
+    <string name="oops_no_photos_are_available">Oops! No photos are available.</string>
+    <string name="reviews">REVIEWS</string>
+    <string name="oops_no_reviews_are_available">Oops! No reviews are available.</string>
+    <string name="oops_seems_like_we_don_t_found_anything">Oops! Seems like we don\'t found anything.</string>
+    <string name="local_transit">Local Transit</string>
+    <string name="cafe">Cafe</string>
+    <string name="aquarium">Aquarium</string>
+    <string name="bakery">Bakery</string>
+    <string name="art_gallery">Art Gallery</string>
+    <string name="natural_features">Natural Features</string>
+    <string name="subway_stations">Subway Stations</string>
+    <string name="taxi_stands">Taxi Stands</string>
+    <string name="sights">Sights</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="hotels">Hotels</string>
+    <string name="drink">Drink</string>
+    <string name="shopping">Shopping</string>
+    <string name="night_club">Night Club</string>
+    <string name="discover">Discover</string>
+    <string name="my_favorites">My Favorites</string>
+    <string name="view_all_cities">View all cities</string>
+    <string name="logout">Logout</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

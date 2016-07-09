@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/disocverLink"
+            android:icon="@drawable/ic_explore_black_24dp"
+            android:title="@string/discover" />
+        <item
+            android:id="@+id/FavoritesLink"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/my_favorites" />
+
+    </group>
+
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/ViewAllCitiesLink"
+                android:icon="@drawable/ic_view_carousel_black_24dp"
+                android:title="@string/view_all_cities" />
+            <item
+                android:id="@+id/LogoutLink"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/logout" />
+        </group>
+
+</menu>

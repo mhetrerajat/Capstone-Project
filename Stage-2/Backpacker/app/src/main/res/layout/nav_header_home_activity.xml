@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:gravity="bottom"
+    android:id="@+id/nav_header_layout"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_header_bg_frame">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/nav_header_bg"
+                android:id="@+id/nav_header_bg_iv"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_bg" />
+    </FrameLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_header_city_name_tv"
+        android:textStyle="bold"
+        android:layout_alignLeft="@id/nav_header_bg_frame"
+        android:layout_alignTop="@id/nav_header_bg_frame"
+        android:layout_alignRight="@id/nav_header_bg_frame"
+        android:layout_alignBottom="@id/nav_header_bg_frame"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        />
+
+</RelativeLayout>
