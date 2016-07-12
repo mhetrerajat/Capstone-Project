@@ -17,4 +17,11 @@ Add your own API KEY in res/values/strings.xml
 ```
 
 ## Photos
-
+![CitySelect](https://github.com/mhetrerajat/Capstone-Project/blob/master/Photos/city_select.png)
+![SideMenu](https://github.com/mhetrerajat/Capstone-Project/blob/master/Photos/side_menu.png)
+![Home1](https://github.com/mhetrerajat/Capstone-Project/blob/master/Photos/Home1.png)
+![Home2](https://github.com/mhetrerajat/Capstone-Project/blob/master/Photos/Home2.png)
+![Home3](https://github.com/mhetrerajat/Capstone-Project/blob/master/Photos/Home3.png)
+![PlacesList](https://github.com/mhetrerajat/Capstone-Project/blob/master/Photos/places_list.png)
+![Detail](https://github.com/mhetrerajat/Capstone-Project/blob/master/Photos/Detail.png)
+![Favorites](https://github.com/mhetrerajat/Capstone-Project/blob/master/Photos/favorites.png)
