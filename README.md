@@ -16,3 +16,5 @@ Add your own API KEY in res/values/strings.xml
 <string name=“REMOTE_API_KEY”>YOUR_API_KEY</string>
 ```
 
+## Photos
+
