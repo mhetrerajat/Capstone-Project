@@ -1,5 +1,15 @@
 # Capstone-Project
 Final Project of Udacity-Google Android Nanodegree
+
+## Overview
+
+Backpacker is a smart travel guide that will help you plan your trips in the best way possible. Personalize your trip by exploring tourist attractions, hotels, restaurants, stores, and other amazing places. It will show you detailed information along with genuine reviews about each and every place you want to visit.
+
+Technical Details
+- Google Places API is used to fetch information about places nearer to the user’s desired location
+- Realm is used as a local android database to store data accessed via the network. This allows users to use the app even without network or internet coverage.
+
+
  
 ##### Stage 1 : Design
 - Mocks : [Images](https://github.com/mhetrerajat/Capstone-Project/tree/master/Stage%201%20-%20Design%20-%20Mocks)
